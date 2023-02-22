@@ -61,5 +61,27 @@ footer {
       border-radius: 100%;
     }
   }
+
+  @media only screen and (max-width: 1250px) {
+    padding: 25px 45px;
+    .logo {
+      img {
+        width: 50px;
+      }
+    }
+
+    .social {
+      gap: 12px;
+
+      .img_wrapper {
+        width: 40px;
+        height: 40px;
+        img {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  }
 }
 </style>
