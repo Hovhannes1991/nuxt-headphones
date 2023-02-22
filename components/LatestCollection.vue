@@ -1,6 +1,6 @@
 <template>
     <div class="latest_collection">
-        <h2>
+        <h2 class="section_title">
             Our Latest Collention
         </h2>
 
@@ -48,7 +48,6 @@ const changeSlide = (value: number) => {
 
 <style lang="scss" scoped>
 .latest_collection {
-    padding-top: 130px;
     background-color: #fff;
 
     h2 {

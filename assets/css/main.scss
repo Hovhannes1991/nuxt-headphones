@@ -16,12 +16,6 @@ body {
     font-family: 'Rubik', sans-serif;
 }
 
-.container {
-    width: 70vw;
-    margin: 0 auto;
-}
-
-
 .flex-center {
     display: flex;
     align-items: center;
@@ -34,4 +28,9 @@ body {
 
 .text-uppercase {
     text-transform: uppercase;
+}
+
+.section_title {
+    font-size: 2.5rem;
+    font-weight: 700;
 }

@@ -1,11 +1,9 @@
 <template>
-    <div class="container">
-        <div class="latest_products">
-            <h2>Our Latest Products</h2>
+    <div class="latest_products">
+        <h2 class="section_title">Our Latest Products</h2>
 
-            <div class="list">
-                <LastProductItem v-for="product in last_products" :product="product" />
-            </div>
+        <div class="list">
+            <LastProductItem v-for="product in last_products" :product="product" />
         </div>
     </div>
 </template>
@@ -19,10 +17,6 @@ const last_products = ref([
 </script>
 
 <style lang="scss" scoped>
-.latest_products {
-    margin-top: 150px;
-}
-
 h2 {
     text-align: center;
 }

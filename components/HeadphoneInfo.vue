@@ -54,7 +54,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 150px auto 0 auto;
+    margin: 0 auto;
     background-color: #fff;
 
     .left_section {
