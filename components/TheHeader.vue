@@ -54,6 +54,9 @@ header {
       @media only screen and (max-width: 1650px) {
         width: 450px;
       }
+      @media only screen and (max-width: 1100px) {
+        width: 250px;
+      }
     }
 
     .header_texts {
